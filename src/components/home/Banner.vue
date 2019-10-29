@@ -25,6 +25,10 @@ export default {
 <style lang="less" scoped>
 .banner {
   padding-top: 80px;
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 /deep/.el-carousel__button {
   width: 20px;

@@ -11,6 +11,16 @@
     </BreadCrumbs>
     <!-- 广告信息 -->
     <AdvInformation />
+    <span
+      ><a
+        href="tencent://Message/?Uin=1006722824&amp;websiteName=local.edu.com:8888=&amp;Menu=yes"
+        class="btn btn-qq"
+        ><img
+          border="0"
+          src="https://i.loli.net/2019/10/30/n4gHwxmNEOpce7Z.png"
+          alt="hello xym!!"
+          title="hello xym!!"/></a
+    ></span>
   </div>
 </template>
 <script>
