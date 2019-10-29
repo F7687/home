@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <Navbar />
     <router-view />
+    <BotBar />
   </div>
 </template>
 
+<script>
+import Navbar from "./components/navbar/Nvabar";
+import BotBar from "./components/botbar/BotBar";
+export default {
+  components: {
+    Navbar,
+    BotBar
+  }
+};
+</script>
 <style lang="less">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
